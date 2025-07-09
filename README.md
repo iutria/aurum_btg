@@ -156,4 +156,4 @@ Se incluye un archivo `.env` en la raíz del proyecto con la configuración nece
 
 ### 🎥 Demo de la aplicación
 
-👉 [Ver video demo](https://github.com/iutria/aurum_btg.git/demo.webm)
+👉 [Ver video demo](https://github.com/iutria/aurum_btg/demo.webm)
