@@ -126,7 +126,30 @@ Se incluye un archivo `.env` en la raíz del proyecto con la configuración nece
 ### 🖼️ Pantalla de inicio
 
 ![Pantalla de inicio](screenshots/home.png)
+![Pantalla de inicio](screenshots/home_1.png)
 
 ### 🖼️ Pantalla de inicio dark
 
 ![Pantalla de inicio dark](screenshots/dark.png)
+
+### 🖼️ Fondos
+
+![Pantalla de inicio](screenshots/funds.png)
+
+### 🖼️ Detalles y suscripción
+
+![Pantalla de inicio](screenshots/subscription.png)
+
+### 🖼️ Movimientos
+
+![Pantalla de inicio](screenshots/transactions.png)
+![Pantalla de inicio](screenshots/transactions_1.png)
+
+### 🖼️ Detalles de Movimientos
+
+![Pantalla de inicio](screenshots/cancel.png)
+![Pantalla de inicio](screenshots/details.png)
+![Pantalla de inicio](screenshots/details_2.png)
+
+### 🖼️ Perfil
+![Pantalla de inicio](screenshots/profile.png)
