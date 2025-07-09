@@ -1,0 +1,1 @@
+export 'pages/details_fund.dart';
