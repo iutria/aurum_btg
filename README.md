@@ -153,3 +153,7 @@ Se incluye un archivo `.env` en la raíz del proyecto con la configuración nece
 
 ### 🖼️ Perfil
 ![Pantalla de inicio](screenshots/profile.png)
+
+### 🎥 Demo de la aplicación
+
+👉 [Ver video demo](https://github.com/iutria/aurum_btg.git/demo.webm)
