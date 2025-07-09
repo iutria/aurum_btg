@@ -1,5 +1,5 @@
 import 'package:aurum_btg/app/config/assets/json.dart';
-import 'package:aurum_btg/app/pages/funds/models/fund.dart';
+import 'package:aurum_btg/app/models/fund.dart';
 import 'package:aurum_btg/app/services/services.dart';
 import 'package:flutter/material.dart';
 
@@ -18,14 +18,13 @@ class FundsProvider extends ChangeNotifier {
     notifyListeners();
     try {
       final funds = await loadJson(JsonAssets.funds);
-      await Future.delayed(const Duration(seconds: 3));
       this.funds =
           (funds as List)
               .map((e) => Fund.fromJson(e as Map<String, dynamic>))
               .toList();
     } catch (e) {
       isError = true;
-      errorMessage = e.toString().split(':')[1].trim();
+      errorMessage = e.toString();
     }
     isLoading = false;
     notifyListeners();

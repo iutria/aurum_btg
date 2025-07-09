@@ -6,7 +6,7 @@ class User {
   final String? lastName;
   final String? username;
   final String? completeName;
-  final int? amount;
+  late int? amount;
   final String? email;
   final String? photo;
 
@@ -20,6 +20,28 @@ class User {
     this.email,
     this.photo,
   });
+
+  User copyWith({
+    int? id,
+    String? name,
+    String? lastName,
+    String? username,
+    String? completeName,
+    int? amount,
+    String? email,
+    String? photo,
+  }) {
+    return User(
+      id: id ?? this.id,
+      name: name ?? this.name,
+      lastName: lastName ?? this.lastName,
+      username: username ?? this.username,
+      completeName: completeName ?? this.completeName,
+      amount: amount ?? this.amount,
+      email: email ?? this.email,
+      photo: photo ?? this.photo,
+    );
+  }
 
   factory User.fromRawJson(String str) => User.fromJson(json.decode(str));
 

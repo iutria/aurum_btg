@@ -1,34 +1,34 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "code": "FPV_BTG_PACTUAL_RECAUDADORA",
     "displayName": "BTG Pactual Recaudadora",
     "category": "FPV",
     "price": 75000
   },
   {
-    "id": 2,
+    "id": "2",
     "code": "FPV_BTG_PACTUAL_ECOPETROL",
     "displayName": "BTG Pactual Ecopetrol",
     "category": "FPV",
     "price": 125000
   },
   {
-    "id": 3,
+    "id": "3",
     "code": "DEUDAPRIVADA",
     "displayName": "Deuda Privada",
     "category": "FIC",
     "price": 50000
   },
   {
-    "id": 4,
+    "id": "4",
     "code": "FDO-ACCIONES",
     "displayName": "Fondo de Acciones",
     "category": "FIC",
     "price": 250000
   },
   {
-    "id": 5,
+    "id": "5",
     "code": "FPV_BTG_PACTUAL_DINAMICA",
     "displayName": "BTG Pactual Dinámica",
     "category": "FPV",

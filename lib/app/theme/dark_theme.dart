@@ -8,8 +8,8 @@ final ThemeData darkTheme = ThemeData(
   scaffoldBackgroundColor: AppColors.black,
   fontFamily: 'Ubuntu',
   appBarTheme: AppBarTheme(
-    backgroundColor: AppColors.secondaryWhite,
-    iconTheme: IconThemeData(color: AppColors.grey),
+    backgroundColor: AppColors.grey,
+    iconTheme: IconThemeData(color: AppColors.secondaryWhite),
     elevation: 0,
   ),
   textTheme: TextTheme(
@@ -32,4 +32,15 @@ final ThemeData darkTheme = ThemeData(
   textButtonTheme: TextButtonThemeData(
     style: TextButton.styleFrom(textStyle: TextStyle(color: AppColors.primary)),
   ),
+  dialogTheme: DialogThemeData(
+    backgroundColor: AppColors.black,
+    titleTextStyle: TextStyle(
+      color: AppColors.white
+    ),
+  ),
+  elevatedButtonTheme: ElevatedButtonThemeData(
+    style: ButtonStyle(
+       backgroundColor: MaterialStateProperty.all<Color>(AppColors.success), 
+    )
+  )
 );

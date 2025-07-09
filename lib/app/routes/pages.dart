@@ -9,6 +9,8 @@ abstract class Pages{
     Routes.error: (context)=>ErrorPage(),
     Routes.profile: (context)=>Profile(),
     Routes.detailsFund: (context)=>DetailsFund(),
+    Routes.userDetailsFund: (context)=>UserDetailsFund(),
     Routes.splashScreen: (context)=>SplashScreen(),
+    Routes.transactions: (context)=>Transactions(),
   };
 }

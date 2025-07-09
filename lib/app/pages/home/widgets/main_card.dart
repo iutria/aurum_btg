@@ -52,7 +52,7 @@ class MainCard extends StatelessWidget {
               Tooltip(
                 message: '\$${formatCOP.format(user.amount ?? 0)}',
                 child: Text(
-                  '\$${formatCOP.format(user.amount ?? 0)}',
+                  '\$${formatCOP.format(user.amount)}',
                   style: TextStyle(
                     color: theme.isLight ? Colors.white : Colors.black,
                     fontWeight: FontWeight.bold,

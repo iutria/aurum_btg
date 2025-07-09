@@ -10,13 +10,20 @@ class ActionsCard extends StatelessWidget {
   ActionsCard({super.key});
 
   final List<Map<String, dynamic>> _actions = [
-    {"title": 'Fondos', "icon": (isDark) => BootstrapIcons.plus, "onTap": (context) {
-      Navigator.pushNamed(context, Routes.funds);
-    }},
+    {
+      "title": 'Fondos',
+      "icon": (isDark) => BootstrapIcons.plus,
+      "onTap": (context) {
+        Navigator.pushNamed(context, Routes.funds);
+      },
+    },
     {
       "title": 'Movimientos',
       "icon": (isDark) => BootstrapIcons.arrow_left_right,
-      "onTap": (context) {},
+      "onTap": (context) {
+        
+        Navigator.pushNamed(context, Routes.transactions);
+      },
     },
     {
       "title": 'Tema',
@@ -24,11 +31,14 @@ class ActionsCard extends StatelessWidget {
       "onTap": (context) {
         Provider.of<ThemeProvider>(context, listen: false).toggleTheme();
       },
-      
     },
-    {"title": 'Perfil', "icon": (isDark) => BootstrapIcons.person, "onTap": (context) {
-      Navigator.pushNamed(context, Routes.profile);
-    }},
+    {
+      "title": 'Perfil',
+      "icon": (isDark) => BootstrapIcons.person,
+      "onTap": (context) {
+        Navigator.pushNamed(context, Routes.profile);
+      },
+    },
   ];
 
   @override

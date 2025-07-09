@@ -1,0 +1,1 @@
+export 'pages/user_details_fund.dart';

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 class Fund {
-  final int? id;
+  final String? id;
   final String? code;
   final String? displayName;
   final String? category;

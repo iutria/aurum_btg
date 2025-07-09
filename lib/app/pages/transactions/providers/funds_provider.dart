@@ -1,5 +1,5 @@
 import 'package:aurum_btg/app/config/assets/json.dart';
-import 'package:aurum_btg/app/pages/funds/models/fund.dart';
+import 'package:aurum_btg/app/models/fund.dart';
 import 'package:aurum_btg/app/services/services.dart';
 import 'package:flutter/material.dart';
 
